@@ -41,7 +41,8 @@ The ESP8266 Oled Library changed a lot with the latest release of version 3.0.0.
 * **TimeClient**: simple class which uses the header date and time to set the clock
 * **NTPClient**: a NTP based time class written by Fabrice Weinberg
 * **WundergroundClient**: fetches current weather and forecast from wunderground.com
-* **ThingspeakClient**: fetches data from Thingspeak which you might have collected with another sensor node and posted there. I use this to measure outdoor temperature and humidity and show it on the WeatherStation with a ClimateNode: https://shop.squix.ch/index.php/esp8266/climatenode.html  
+* **ThingspeakClient**: fetches data from Thingspeak which you might have collected with another sensor node and posted there. I use this to measure outdoor temperature and humidity and show it on the WeatherStation with a ClimateNode: https://shop.squix.ch/index.php/esp8266/climatenode.html 
+* **BusLinesClient**: fetches data from chelaile.net.cn and show time table for selected bus lines at selected station 
 
 ## Why Weather Station as a library?
 
